@@ -1,0 +1,8 @@
+2016-04-21  17:53:36 WARN  com.dianru.analysis.process.imps.ClickProcessor 85 process - data item has error adid=9563 appid=54 action=2 type=0
+2016-04-26  17:06:05 WARN  com.dianru.analysis.process.imps.ClickProcessor 85 process - data item has error adid=9563 appid=54 action=2 type=0
+2016-04-26  17:09:38 WARN  com.dianru.analysis.process.imps.ClickProcessor 85 process - data item has error adid=10388 appid=54 action=2 type=0
+2016-04-26  17:12:27 WARN  com.dianru.analysis.process.imps.ClickProcessor 91 process - media 54 not found.
+2016-04-26  17:21:20 WARN  com.dianru.analysis.process.imps.ClickProcessor 163 process - Click action exists for : item.date=20160407 item.id=1 item.adid=10388 item.mac=24:69:a5:a7:93:5d item.udid=A0000043E8E677 action=2 adid=10388 mac=24:69:a5:a7:93:5d udid=A0000043E8E677
+2016-04-26  18:56:24 WARN  com.dianru.analysis.process.imps.ClickProcessor 163 process - Click action exists for : item.date=20160407 item.id=1 item.adid=10388 item.mac=24:69:a5:a7:93:5d item.udid=A0000043E8E677 action=2 adid=10388 mac=24:69:a5:a7:93:5d udid=A0000043E8E677
+2016-04-26  21:22:46 WARN  com.dianru.analysis.process.imps.ClickProcessor 163 process - Click action exists for : item.date=20160407 item.id=1 item.adid=10388 item.mac=24:69:a5:a7:93:5d item.udid=A0000043E8E677 action=2 adid=10388 mac=24:69:a5:a7:93:5d udid=A0000043E8E677
+2016-04-26  21:48:10 WARN  com.dianru.analysis.process.imps.ClickProcessor 163 process - Click action exists for : item.date=20160407 item.id=1 item.adid=10388 item.mac=24:69:a5:a7:93:5d item.udid=A0000043E8E677 action=2 adid=10388 mac=24:69:a5:a7:93:5d udid=A0000043E8E677

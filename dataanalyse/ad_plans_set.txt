@@ -1,0 +1,135 @@
+sql：
+SELECT
+	p.adid,
+	begin_plan,
+	end_plan,
+	options_plan,
+	jobs_plan,
+	OPTIONS,
+	ads_extended
+FROM
+	ad_plans_set p,
+	ads a
+WHERE
+	p.adid = a.adid
+AND is_effect = 0
+AND begin_plan <=% s
+AND end_plan >% s;
+
+ads.options：
+{
+	"show_rates" : 0,
+	"title" : "现金宝",
+	"icon" : "upload\/ads\/20150531\/1433039895980448551.jpg",
+	"psize" : "10.3",
+	"text1" : "最受欢迎的手机理财应用，全行业下载量NO.1！",
+	"text2" : "搜索“奥迪”首次下载注册绑卡获奖",
+	"callbacks" : "",
+	"store" : "https:\/\/itunes.apple.com\/cn\/app\/xian-jin-bao\/id479739476?mt=8",
+	"download" : "https:\/\/itunes.apple.com\/cn\/app\/xian-jin-bao\/id479739476?mt=8",
+	"ids" : "",
+	"short_url" : "",
+	"is_paid_ads" : 0,
+	"is_session" : 1,
+	"is_openudid" : 0,
+	"is_ssid" : 0,
+	"redownload" : 1,
+	"show_monitor_url" : "",
+	"proportion" : 0,
+	"is_ig" : 0,
+	"is_disk" : 0,
+	"is_process_exception" : 0,
+	"process_num" : "",
+	"float_money" : 0,
+	"repeat_url" : "",
+	"report_idfa_url" : "",
+	"report_idfa_key" : ""
+}
+
+ad_plans_set.options_plan
+
+{
+	"hours" : "00,01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17,18,19,20,21,22,23",
+	"root" : 0,
+	"click_num" : 999999,
+	"num" : 500,
+	"deliveryType" : 0,
+	"is_talkingdata" : 2,
+	"price_click_income" : 2,
+	"price_click_cost" : 1,
+	"price_callback_income" : "4",
+	"price_callback_cost" : "2.5",
+	"is_aso" : 3,
+	"keywords" : "刺激",
+	"aso_pos" : 1,
+	"sort" : 3,
+	"ruleouts" : "",
+	"ruleins" : "",
+	"remark" : "",
+	"levelouts" : "1,2",
+	"fwz_levelouts" : "2,3",
+	"remain" : "3,4",
+	"float_money" : 0.5,
+	"process_num" : 0,
+	"devices" : "ipad,iphone",
+	"citys" : "AH,BJ,FJ,GS,GD,GX,GZ,HI,HE,HA,HL,HB,HN,JL,JS,JX,LN,NM,NX,QH,SD,SX,SN,SH,SC,TJ,XZ,XJ,YN,ZJ,CQ,HK,MO,TW",
+	"osver" : "9"
+}
+
+ad_plans_set.jobs_plan
+
+{
+	"income" : "4",
+	"runtime" : 3,
+	"jobs" : [{
+			"const" : "2.5",
+			"interval" : "1",
+			"note" : "杀人红尘中"
+		}
+	]
+}
+
+ads.jobs.
+{
+	"income" : "11.00",
+	"runtime" : 1,
+	"jobs" : [{
+			"const" : "8.00",
+			"interval" : "1",
+			"note" : "搜索“奥迪”首次下载注册绑卡获奖"
+		}, {
+			"const" : "0.15",
+			"interval" : "1",
+			"note" : "再次打开试玩3分钟获奖"
+		}, {
+			"const" : "0.1",
+			"interval" : "1",
+			"note" : "再次打开试玩3分钟获奖"
+		}, {
+			"const" : "0.1",
+			"interval" : "1",
+			"note" : "再次打开试玩3分钟获奖"
+		}, {
+			"const" : "0.1",
+			"interval" : "1",
+			"note" : "再次打开试玩3分钟获奖"
+		}, {
+			"const" : "0.1",
+			"interval" : "1",
+			"note" : "再次打开试玩3分钟获奖"
+		}, {
+			"const" : "0.1",
+			"interval" : "1",
+			"note" : "再次打开试玩3分钟获奖"
+		}
+	]
+}
+
+ad_plans_set.ads_extended
+[{
+		"key_count" : "200",
+		"click_count" : "999999999",
+		"key_words" : "好玩",
+		"key_pos" : "3"
+	}
+]

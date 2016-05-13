@@ -1,0 +1,91 @@
+ads_extended.count_keywords
+[
+    {
+        "key_count":"34",
+        "click_count":"999999999",
+        "key_words":"34",
+        "key_pos":"34"
+    },
+    {
+        "key_count":"44",
+        "click_count":"999999999",
+        "key_words":"44",
+        "key_pos":"44"
+    }
+]
+
+ads.keywords
+奥迪
+
+ads.jobs
+{
+    "income":"11.00",
+    "runtime":1,
+    "jobs":[
+        {
+            "const":"8.00",
+            "interval":"1",
+            "note":"搜索“奥迪”首次下载注册绑卡获奖"
+        },
+        {
+            "const":"0.15",
+            "interval":"1",
+            "note":"再次打开试玩3分钟获奖"
+        },
+        {
+            "const":"0.1",
+            "interval":"1",
+            "note":"再次打开试玩3分钟获奖"
+        },
+        {
+            "const":"0.1",
+            "interval":"1",
+            "note":"再次打开试玩3分钟获奖"
+        },
+        {
+            "const":"0.1",
+            "interval":"1",
+            "note":"再次打开试玩3分钟获奖"
+        },
+        {
+            "const":"0.1",
+            "interval":"1",
+            "note":"再次打开试玩3分钟获奖"
+        },
+        {
+            "const":"0.1",
+            "interval":"1",
+            "note":"再次打开试玩3分钟获奖"
+        }
+    ]
+}
+
+ads.option
+{
+    "show_rates":0,
+    "title":"现金宝",
+    "icon":"upload/ads/20150531/1433039895980448551.jpg",
+    "psize":"10.3",
+    "text1":"最受欢迎的手机理财应用，全行业下载量NO.1！",
+    "text2":"搜索“奥迪”首次下载注册绑卡获奖",
+    "callbacks":"",
+    "store":"https://itunes.apple.com/cn/app/xian-jin-bao/id479739476?mt=8",
+    "download":"https://itunes.apple.com/cn/app/xian-jin-bao/id479739476?mt=8",
+    "ids":"",
+    "short_url":"",
+    "is_paid_ads":0,
+    "is_session":1,
+    "is_openudid":0,
+    "is_ssid":0,
+    "redownload":1,
+    "show_monitor_url":"",
+    "proportion":0,
+    "is_ig":0,
+    "is_disk":0,
+    "is_process_exception":0,
+    "process_num":"",
+    "float_money":0,
+    "repeat_url":"",
+    "report_idfa_url":"",
+    "report_idfa_key":""
+}

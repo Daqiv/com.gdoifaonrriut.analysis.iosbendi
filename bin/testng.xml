@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1">
+	<parameter name="first-name" value="Cedric1" />
+	<parameter name="datasource" value="mysql" />
+	<parameter name="jdbcDriver" value="mysql:jdbc" />
+	<parameter name="rate" value="1" />
+	<test name="test12"  preserve-order="true">
+		<classes>
+			<class name="test.test.TestTest">
+				<methods>
+					<!-- <include name="testoperator" />
+					<include name="testRandomInt" />
+					<include name="testSingleString" />
+					<include name="testMap" /> 
+					<include name="testGetCurrentProcessId" />-->
+					<include name="testMapModify" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

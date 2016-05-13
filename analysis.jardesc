@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jardesc>
+    <jar path="/Users/motse/dianru/analysis.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/com.dianru.analysis/analysis.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="true" overwrite="true" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+        <javaElement handleIdentifier="=com.dianru.analysis/src&lt;com.dianru.analysis.store"/>
+        <javaElement handleIdentifier="=com.dianru.analysis/src&lt;com.dianru.analysis.callback"/>
+        <javaElement handleIdentifier="=com.dianru.analysis/src&lt;com.dianru.analysis.tools"/>
+        <javaElement handleIdentifier="=com.dianru.analysis/src&lt;com.dianru.analysis.bean{DataType.java"/>
+        <javaElement handleIdentifier="=com.dianru.analysis/src&lt;com.dianru.analysis.bean{MediaFilter.java"/>
+        <javaElement handleIdentifier="=com.dianru.analysis/src&lt;com.dianru.analysis.bean{LogItem.java"/>
+        <javaElement handleIdentifier="=com.dianru.analysis/src&lt;com.dianru.analysis.bean{CharArray.java"/>
+        <javaElement handleIdentifier="=com.dianru.analysis/src&lt;com.dianru.analysis.bean{DataItem.java"/>
+        <javaElement handleIdentifier="=com.dianru.analysis/src&lt;com.dianru.analysis.bean{Ads.java"/>
+        <javaElement handleIdentifier="=com.dianru.analysis/src&lt;com.dianru.analysis.bean{MediaApp.java"/>
+        <javaElement handleIdentifier="=com.dianru.analysis/src&lt;com.dianru.analysis.bean{MediaChannel.java"/>
+        <javaElement handleIdentifier="=com.dianru.analysis/src&lt;com.dianru.analysis.bean{Media.java"/>
+        <javaElement handleIdentifier="=com.dianru.analysis/src&lt;com.dianru.analysis.bean{MediaPrice.java"/>
+        <javaElement handleIdentifier="=com.dianru.analysis/src&lt;com.dianru.analysis.util"/>
+        <javaElement handleIdentifier="=com.dianru.analysis/src&lt;com.dianru.analysis.io"/>
+        <javaElement handleIdentifier="=com.dianru.analysis/src&lt;com.dianru.analysis.cache"/>
+        <javaElement handleIdentifier="=com.dianru.analysis/src&lt;com.dianru.analysis.process.imps"/>
+        <javaElement handleIdentifier="=com.dianru.analysis/src&lt;com.dianru.analysis.bean{KeyValues.java"/>
+        <javaElement handleIdentifier="=com.dianru.analysis/src&lt;com.dianru.analysis"/>
+        <javaElement handleIdentifier="=com.dianru.analysis/src&lt;com.dianru.analysis.bean{Source.java"/>
+        <javaElement handleIdentifier="=com.dianru.analysis/src&lt;com.dianru.analysis.bean{DateTime.java"/>
+        <javaElement handleIdentifier="=com.dianru.analysis/src&lt;com.dianru.analysis.bean{CallbackItem.java"/>
+        <javaElement handleIdentifier="=com.dianru.analysis/src&lt;com.dianru.analysis.count"/>
+        <javaElement handleIdentifier="=com.dianru.analysis/src&lt;com.dianru.analysis.parse"/>
+        <javaElement handleIdentifier="=com.dianru.analysis/src&lt;com.dianru.analysis.store.bean"/>
+        <javaElement handleIdentifier="=com.dianru.analysis/src&lt;com.dianru.analysis.bean{KeyValue.java"/>
+        <javaElement handleIdentifier="=com.dianru.analysis/src&lt;com.dianru.analysis.bean{Define.java"/>
+        <javaElement handleIdentifier="=com.dianru.analysis/src&lt;com.dianru.analysis.bean{AdsRunState.java"/>
+        <javaElement handleIdentifier="=com.dianru.analysis/src&lt;com.dianru.analysis.boot.util"/>
+        <javaElement handleIdentifier="=com.dianru.analysis/src&lt;com.dianru.analysis.process"/>
+        <javaElement handleIdentifier="=com.dianru.analysis/src&lt;com.dianru.analysis.count.store"/>
+        <javaElement handleIdentifier="=com.dianru.analysis/src&lt;com.dianru.analysis.count.bean"/>
+        <javaElement handleIdentifier="=com.dianru.analysis/src&lt;com.dianru.analysis.boot"/>
+        <javaElement handleIdentifier="=com.dianru.analysis/src&lt;com.dianru.analysis.parse.imps"/>
+        <javaElement handleIdentifier="=com.dianru.analysis/src&lt;com.dianru.analysis.parse.util"/>
+    </selectedElements>
+</jardesc>
