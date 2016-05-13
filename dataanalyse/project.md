@@ -81,6 +81,17 @@
 16. 下发请求对接sendScore将请求的url以及其他信息等放入**ACTION-HTTP-REQUEST**
 17. 快速精准控量快速任务完成之后删除		
 18. 快速任务实时上报IDFA给广告主，将对应的http请求和数据信息放入**REPORT-IDFA-TOCP**
+
+## JobProcessor ##
+1. **0开始active，1以后都是job** 刚开始是激活，激活完成之后就开始做任务了，所有默认job的active_num为1
+2. 获取30天的记录，如果记录为空（不存在点击，已经激活）直接返回
+3. 多次激活对应价格读取，判断
+4. **cost**乘以针对media和ad的**rate**比率求出花费
+5. app下发**积分**计算
+6. 将积分下发采用下发请求放入**ACTION-HTTP-REQUEST**
+7. 放入内存的等待被统计
+8. 同步激活时间，用于控制深度任务的显示
+9. 将明细数据设置进入**callback**表当中
 ## isStop ##
 
 ## invalid ##
