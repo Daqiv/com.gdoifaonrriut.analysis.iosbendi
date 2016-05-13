@@ -93,7 +93,13 @@
 8. 同步激活时间，用于控制深度任务的显示
 9. 将明细数据设置进入**callback**表当中
 ## isStop ##
+9. 将明细数据设置进入**callback**表当中  
 
+##CallbackProcessor##
+1. 在所有处理器中只有ShowProcessor中没有继承此类
+2. 此类封装了一个方法，根据日期，cpa/cpc, adid ,mac, udid 来获取30天的天表中是否存在此数据
+## isStop ##
+* ShowProcessor
 ## invalid ##
 
 
