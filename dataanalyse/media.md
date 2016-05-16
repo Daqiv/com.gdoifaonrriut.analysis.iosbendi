@@ -15,7 +15,7 @@
 >1/2
 
 ##media.state  
-状态 1新广告,2审核通过,，3拒绝，4启动 5 停止 6软删除，7调试，8暂停, 9 留存
+状态 1 投放  2停止  3软删除 4测试（控制墙是否显示） 开发者行为
 
 ##media.rates
 
@@ -67,3 +67,11 @@
 ##media-app.callback_url	
 积分回调地址  
 > http://www.dianru.com/test/test.aspx?app=dianru
+
+
+## media.citys
+投放地区(all全部投放)
+
+
+## hours
+投放小时(all全部投放)

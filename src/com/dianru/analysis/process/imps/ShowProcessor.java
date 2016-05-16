@@ -44,6 +44,7 @@ public class ShowProcessor extends BaseProcessor {
 		}
 		
 		boolean isStop = false;
+		//如果媒体不是投放和测试状态，
 		if(media.getState() != 1 && media.getState() != 4) {
 			isStop = true;
 		}
@@ -75,7 +76,6 @@ public class ShowProcessor extends BaseProcessor {
 				LOG.warn("ad "+adid+" object not found");
 				continue;
 			}
-			
 			if(ad.getState() != 4 && ad.getState() != 7) {
 				isStop = true;
 			}

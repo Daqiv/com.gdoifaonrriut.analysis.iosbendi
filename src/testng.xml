@@ -3,7 +3,7 @@
 	<parameter name="first-name" value="Cedric1" />
 	<parameter name="datasource" value="mysql" />
 	<parameter name="jdbcDriver" value="mysql:jdbc" />
-	<parameter name="rate" value="1" />
+	<parameter name="rate" value="2" />
 	<test name="test12"  preserve-order="true">
 		<classes>
 			<class name="test.test.TestTest">
@@ -11,8 +11,8 @@
 					<!-- <include name="testoperator" />
 					<include name="testRandomInt" />
 					<include name="testSingleString" />
-					<include name="testMap" /> 
-					<include name="testGetCurrentProcessId" />-->
+					<include name="testMap" /> -->
+					<include name="testGetCurrentProcessId" />
 					<include name="testMapModify" />
 				</methods>
 			</class>
